@@ -1,13 +1,13 @@
-/*DROP FUNCTION IF EXISTS urbrurfunc;
+DROP FUNCTION IF EXISTS urbrurfunc;
 CREATE OR REPLACE FUNCTION urbrurfunc(wkb_geometry GEOMETRY) RETURNS VARCHAR AS $$
         BEGIN
                 IF wkb_geometry IS NOT NULL THEN 
                         RETURN 'urban';
                 ELSE
-                        RETURN 'rural';
+                        RETURN 'ruralhuvj';
                 END IF;        
         END;
-$$ LANGUAGE plpgsql;*/
+$$ LANGUAGE plpgsql;
 
 /*DROP FUNCTION capfunc(capacity FLOAT, flow BIGINT);
 CREATE OR REPLACE FUNCTION capfunc(capacity FLOAT, flow BIGINT) RETURNS VARCHAR AS $$
@@ -49,7 +49,7 @@ WHERE modes = 'car';
 --SELECT * FROM links_imp LIMIT 1000;*/
 
 
-DROP TABLE IF EXISTS link_momvement_imp;
+--DROP TABLE IF EXISTS link_momvement_imp;
 
 
 /*CREATE INDEX IF NOT EXISTS link_movement_vehicle_id_idx
