@@ -49,7 +49,7 @@ WHERE modes = 'car';
 --SELECT * FROM links_imp LIMIT 1000;*/
 
 
-DROP TABLE IF EXISTS link_momvement_imp;
+--DROP TABLE IF EXISTS link_momvement_imp;
 
 
 /*CREATE INDEX IF NOT EXISTS link_movement_vehicle_id_idx
