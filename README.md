@@ -1,5 +1,4 @@
 # Degree Project
-[^1]
 <dl>
   <dt>Thesis Title:</dt>
     <dd>The Potential of Electrification in reducing Emissions from Passenger Cars in Stockholm County by 2030: A Modeling Study of the Potential of Plug-In Hybrids and All-Electric Cars in reducing Greenhouse Gas Emissions and Air Pollution</dd>
@@ -18,7 +17,7 @@ To read the report and abstract, go to: https://www.diva-portal.org/smash/record
         <li>PM visulizationz.sql – Code for visualizing the geographical distribution of PM emissions.</li>
       </ul>
     </dd>
-  <dt>Bilscenarier.xlsm <a href="note">*</a></dt>
+  <dt>Bilscenarier.xlsm<a href="note">*</a></dt>
     <dd>Contains all calculations used to create each of the five scenarios for municipality-level car fleet compositon in 2030 (i.e. the number of all-electric, plug-in hybrid, gasoline and diesel vehicles in each of the 26 municipalities of Stockholm County in 2030). In short, these scenarios have been made using historic car sales and car ownership data for the period 2010-2019.</dd>
   <dt>Cold start calculations.xlsm</dt>
     <dd>Calculations for converting 1476 cold start emission factors from g/start to continuous (exponentially decreasing) functions of the driving distance. This automated using VBA, using the Excel Solver and the method of least squares.</dd>
@@ -27,5 +26,6 @@ To read the report and abstract, go to: https://www.diva-portal.org/smash/record
   <dt>Transports.gqz</dt>
     <dd>QGIS project for visualizing the geographical distribution of emissions.</dd>
 </dl>
-<a name="note">sddssd</a>
-Click <a href="#chapter4">here</a> to read chapter 4.
+<sub><a name="note">
+  *With what I have since learned, if I would redo the scenarios I would create a data model in Power Pivot instead of having 20 tabs for car sales and car ownership in the same workbook. I would also make use of tables and use more VBA.
+</a></sub>
