@@ -11,5 +11,5 @@
   <dt>Cold start calculations</dt>
   <dd>Calculations involving the method of least squares</dd>
   <dt>SQL scripts</dt>
-  <dd>The main part of the project, the three SQL scripts in this folder relate to the calculation of emissons</dd>
+  <dd>The main part of the project, the three SQL scripts in this folder relate to the calculation of emissons. About 2000 lines of code in total.</dd>
 </dl>
