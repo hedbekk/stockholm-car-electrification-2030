@@ -18,7 +18,7 @@ To read the report and abstract, go to: https://www.diva-portal.org/smash/record
         <li>PM visulizationz.sql – Code for visualizing the geographical distribution of PM emissions.</li>
       </ul>
     </dd>
-  <dt>Bilscenarier.xlsm</dt>
+  <dt>Bilscenarier.xlsm <a href="note">*</a></dt>
     <dd>Contains all calculations used to create each of the five scenarios for municipality-level car fleet compositon in 2030 (i.e. the number of all-electric, plug-in hybrid, gasoline and diesel vehicles in each of the 26 municipalities of Stockholm County in 2030). In short, these scenarios have been made using historic car sales and car ownership data for the period 2010-2019.</dd>
   <dt>Cold start calculations.xlsm</dt>
     <dd>Calculations for converting 1476 cold start emission factors from g/start to continuous (exponentially decreasing) functions of the driving distance. This automated using VBA, using the Excel Solver and the method of least squares.</dd>
@@ -27,7 +27,5 @@ To read the report and abstract, go to: https://www.diva-portal.org/smash/record
   <dt>Transports.gqz</dt>
     <dd>QGIS project for visualizing the geographical distribution of emissions.</dd>
 </dl>
-<a name="chapter4"></a>
+<a name="note">sddssd</a>
 Click <a href="#chapter4">here</a> to read chapter 4.
-*Final note:[^1]
-[^1]: This is the first footnote.
