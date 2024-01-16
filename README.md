@@ -3,7 +3,7 @@
   <dt>Thesis Title:</dt>
     <dd>The Potential of Electrification in reducing Emissions from Passenger Cars in Stockholm County by 2030: A Modeling Study of the Potential of Plug-In Hybrids and All-Electric Cars in reducing Greenhouse Gas Emissions and Air Pollution</dd>
 </dl>
-To read the report and abstract, go to: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1578459&dswid=7135
+Full report is available at: https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1578459&dswid=7135
 
 ## Main Content of Repository:
 
