@@ -29,4 +29,4 @@ To read the report and abstract, go to: https://www.diva-portal.org/smash/record
 
 <br>
 <br>
-*Note: With what I have since learned, if I would redo the scenarios I would create a data model in Power Pivot instead of having 20 tabs for car sales and car ownership in a single workbook. I would also make use of tables and use more VBA.
+*Note: If I were to redo this project, I would create a data model in Power Pivot for the scenarios instead of having 20 tabs for car sales and car ownership in a single workbook. I would also make use of tables and use more VBA.
