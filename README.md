@@ -25,9 +25,9 @@ The repository is organized into four subfolders:
 
 - **`evaporation_soak.csv`** – Emission factors from HBEFA for hot soak losses (fuel evaporation immediately after parking a warm vehicle). Used in `Main.sql`.
 
-- **`HBEFA_hot.csv`** – Hot emission factors from HBEFA. Used in `Main.sql`.
-
 - **`hbefa_cold.csv`** – Cold-start emission factors from HBEFA. Imported and reformatted in Main.sql, then exported for use in `Cold start emission modeling.xlsm`, where they are converted into exponentially decreasing functions of driving distance.
+
+- **`hbefa_hot.csv`** – Hot emission factors from HBEFA. Used in `Main.sql`.
 
 - **`los.csv`** – Speed thresholds that define level-of-service classes (Freeflow, Heavy, Satur., St+Go and St+Go2) by rural/urban area, road type and speed limit. Used in `Main.sql` to map observed link speeds to a LoS class and select the corresponding HBEFA hot emission factors.
 
