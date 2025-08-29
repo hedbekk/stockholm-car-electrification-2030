@@ -11,7 +11,7 @@
 
 
 ## Overview
-This thesis models how different levels of electrification in Stockholm County’s passenger car fleet could affect emissions by 2030, relative to 2019. The workflow consists of three main steps:
+The study models how different levels of electrification in the Stockholm County passenger car fleet could affect emissions by 2030 relative to 2019. The workflow can be divided into three main steps:
 
 1. **Scenario construction (Excel)** – Municipality-level scenarios for 2030 of population and car fleet composition (number of EVs, PHEVs, gasoline and diesel vehicles). Modeled in Excel using official population projections and historic car sales and ownership data from 2010–2019. These scenarios were then used as input to the traffic simulation.
    
