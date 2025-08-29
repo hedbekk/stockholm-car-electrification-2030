@@ -1,11 +1,27 @@
-# KTH Thesis Project
+<h1 align="center">Master's Thesis – KTH Royal Institute of Technology</h1>
 
-**Thesis Title:**  
-*The Potential of Electrification in Reducing Emissions from Passenger Cars in Stockholm County by 2030:  
-A Modeling Study of the Potential of Plug-In Hybrids and All-Electric Cars in Reducing Greenhouse Gas Emissions and Air Pollution*
+<p align="center">
+  <strong>Thesis:</strong> 
+  <a href="https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1578459&dswid=7135">
+    The Potential of Electrification in Reducing Emissions from Passenger Cars in Stockholm County by 2030:<br>
+    A Modeling Study of the Potential of Plug-In Hybrids and All-Electric Cars in Reducing Greenhouse Gas Emissions and Air Pollution
+  </a>
+</p>
 
-📄 Full report available at: [DiVA Portal](https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1578459&dswid=7135)
 
+
+## Overview
+This thesis models how different levels of electrification in Stockholm County’s passenger car fleet could affect emissions by 2030, relative to 2019. The workflow consists of three main steps:
+
+1. **Scenario construction (Excel)** – Municipality-level scenarios for 2030 of population and car fleet composition (number of EVs, PHEVs, gasoline and diesel vehicles). Modeled in Excel using official population projections and historic car sales and ownership data from 2010–2019. These scenarios were then used as input to the traffic simulation.
+   
+2. **Traffic simulation (Scaper)** – 24-hour simulation of vehicle trajectories (every 10th car) on a simplified road network for Stockholm County with 28,355 links (min = 1.7 m, mean = 318 m, max = 11,225 m). Outputs included start and end times for each car on each road link. The simulations were carried out in Scaper/MATSim by my supervisor, Daniel Jonsson, at KTH.
+   
+3. **Emissions modeling (SQL)** – Emissions of **17 pollutants**, including CO₂, NOx, NMHC, PM₁₀ and PM₂.₅, were calculated in SQL from Scaper outputs. Emissions were computed **vehicle by vehicle and road link by road link**, without first aggregating traffic flows, using **HBEFA** emission factors for hot exhaust, cold-start, evaporation (diurnal, running, hot soak) and non-exhaust components.
+
+**Key findings:** In the most optimistic electrification scenario – where EVs and PHEVs account for **64.5%** of cars in 2030 – emissions are projected to fall by **43.6% (CO₂)**, **63.5% (NMHC)** and **84.7% (NOₓ)** compared to 2019. However, in the same scenario, emissions of **PM₂.₅** and **PM₁₀** are projected to rise by **43.5%** and **45.6%**, respectively, driven by higher traffic volumes (linked to the lower cost of driving electric cars) and a projected **15.5%** population increase.
+
+*This repository contains the SQL, Excel and QGIS assets used to build the scenarios, validate Scaper outputs, run the emissions model and visualize the results.*
 
 ## Repository Contents
 
@@ -63,8 +79,8 @@ The repository is organized into four subfolders:
 
 - **`Scaper output checks.sql`** – SQL queries for checking consistency in Scaper output data, including vehicle counts, traffic flow by link and hour, level of service and travel distances. Identifies anomalies such as unrealistic speeds or traffic accumulation. Provides the basis for the visualizations in `Scaper output diagnostics.xlsx`.
 
+## What is not Included in this Repository
 
+- **Scaper output data** – Over 4 GB of files, across five scenarios, containing detailed simulation results. These include millions of rows with start and end times for every vehicle on each of the 28,355 road links during the 24-hour simulation.  
 
-
-
-
+- **Raw HBEFA emission factors** – The original emission factor database distributed with the HBEFA Microsoft Access application. Only the processed subsets needed for this thesis are included here.  
