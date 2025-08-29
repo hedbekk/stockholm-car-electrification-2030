@@ -1,0 +1,49 @@
+﻿Case,VehCat,Year,TrafficScenario,Component,RoadCat,AmbientCondPattern,EmConcept,%OfEmConcept,EFA,EFA_weighted
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,HC,Urban,ØSE,petrol (4S),0.484133273,1.765086532,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,HC,Urban,ØSE,diesel,0.44456163,0,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,HC,Urban,ØSE,electricity,0.005265014,0,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,HC,Urban,ØSE,bifuel CNG/petrol,0.010279117,0.08138974,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,HC,Urban,ØSE,flex-fuel E85,0.04174763,0.10774678,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,HC,Urban,ØSE,Plug-in Hybrid petrol/electric,0.014013316,0.362003028,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,CH4,Urban,ØSE,petrol (4S),0.484133273,0,0
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,CH4,Urban,ØSE,diesel,0.44456163,0,0
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,CH4,Urban,ØSE,electricity,0.005265014,0,0
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,CH4,Urban,ØSE,bifuel CNG/petrol,0.010279117,0,0
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,CH4,Urban,ØSE,flex-fuel E85,0.04174763,0,0
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,CH4,Urban,ØSE,Plug-in Hybrid petrol/electric,0.014013316,0,0
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,NMHC,Urban,ØSE,petrol (4S),0.484133273,1.765086532,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,NMHC,Urban,ØSE,diesel,0.44456163,0,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,NMHC,Urban,ØSE,electricity,0.005265014,0,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,NMHC,Urban,ØSE,bifuel CNG/petrol,0.010279117,0.08138974,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,NMHC,Urban,ØSE,flex-fuel E85,0.04174763,0.10774678,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,NMHC,Urban,ØSE,Plug-in Hybrid petrol/electric,0.014013316,0.362003028,0.864944816
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,Benzene,Urban,ØSE,petrol (4S),0.484133273,0.014120693,0.006919559
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,Benzene,Urban,ØSE,diesel,0.44456163,0,0.006919559
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,Benzene,Urban,ØSE,electricity,0.005265014,0,0.006919559
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,Benzene,Urban,ØSE,bifuel CNG/petrol,0.010279117,0.000651118,0.006919559
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,Benzene,Urban,ØSE,flex-fuel E85,0.04174763,0.000861974,0.006919559
+evaporation_diurnal[4.1],pass. car,2019,REF SE HB41,Benzene,Urban,ØSE,Plug-in Hybrid petrol/electric,0.014013316,0.002896024,0.006919559
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,HC,Urban,ØSE,petrol (4S),0.405870378,1.531514406,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,HC,Urban,ØSE,diesel,0.433299124,0,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,HC,Urban,ØSE,electricity,0.055048868,0,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,HC,Urban,ØSE,bifuel CNG/petrol,0.014983114,0.084155127,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,HC,Urban,ØSE,flex-fuel E85,0.010511001,0.194793373,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,HC,Urban,ØSE,Plug-in Hybrid petrol/electric,0.080287524,0.424761057,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,CH4,Urban,ØSE,petrol (4S),0.405870378,0,0
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,CH4,Urban,ØSE,diesel,0.433299124,0,0
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,CH4,Urban,ØSE,electricity,0.055048868,0,0
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,CH4,Urban,ØSE,bifuel CNG/petrol,0.014983114,0,0
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,CH4,Urban,ØSE,flex-fuel E85,0.010511001,0,0
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,CH4,Urban,ØSE,Plug-in Hybrid petrol/electric,0.080287524,0,0
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,NMHC,Urban,ØSE,petrol (4S),0.405870378,1.531514406,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,NMHC,Urban,ØSE,diesel,0.433299124,0,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,NMHC,Urban,ØSE,electricity,0.055048868,0,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,NMHC,Urban,ØSE,bifuel CNG/petrol,0.014983114,0.084155127,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,NMHC,Urban,ØSE,flex-fuel E85,0.010511001,0.194793373,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,NMHC,Urban,ØSE,Plug-in Hybrid petrol/electric,0.080287524,0.424761057,0.659007728
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,Benzene,Urban,ØSE,petrol (4S),0.405870378,0.012252116,0.005272062
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,Benzene,Urban,ØSE,diesel,0.433299124,0,0.005272062
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,Benzene,Urban,ØSE,electricity,0.055048868,0,0.005272062
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,Benzene,Urban,ØSE,bifuel CNG/petrol,0.014983114,0.000673241,0.005272062
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,Benzene,Urban,ØSE,flex-fuel E85,0.010511001,0.001558347,0.005272062
+evaporation_diurnal[4.1],pass. car,2030,REF SE HB41,Benzene,Urban,ØSE,Plug-in Hybrid petrol/electric,0.080287524,0.003398089,0.005272062
